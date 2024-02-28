@@ -5,9 +5,8 @@
 - Beauty UI similar to the charity donation website
 - Fully responsive and mobile friendly 
 - User can add their donation wish to cart
-- User can view details of the charity
-- User can donate the amount to the charity
-- In Item page user can add quantity of item to cart instead of click add more and more 
+- User can view details of the charities
+- User can donate the amount to the charity 
 
 ## 🚀 What technologies were used?
 
@@ -22,10 +21,10 @@ From your command line, first clone this repo:
 
 ```
 # Clone this repository
-$ https://github.com/0mar-helal/multimart-react-ecommerce.git
+$ https://github.com/avishkaarians/cross-border-welfare-donations.git
 
 # Go into the repository
-$ cd multimart-react-ecommerce
+$ cd cross-border-welfare-donations
 
 # Remove current origin repository
 $ git remote remove origin
@@ -40,6 +39,7 @@ $ npm install
 
 # Start development server
 $ npm start
+
 ```
 👨‍💻 Happy coding!
 ---
