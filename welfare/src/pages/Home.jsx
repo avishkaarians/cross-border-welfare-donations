@@ -16,18 +16,17 @@ const Home = () => {
       <SliderHome />
       <Wrapper />
       <Section
-        title="Big Discount"
+        title="Where to donate now"
         bgColor="#f6f9fc"
         productItems={discoutProducts}
       />
       <Section
-        title="New Arrivals"
+        title="Best Charities"
         bgColor="white"
-        productItems={newArrivalData}
+        productItems={products}
       />
-      <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} />
+      {/* <Section title="Best Sales" bgColor="#f6f9fc" productItems={bestSales} /> */}
     </Fragment>
   );
 };
-
 export default Home;

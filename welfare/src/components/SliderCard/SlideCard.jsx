@@ -6,9 +6,9 @@ const SlideCard = ({title,desc,cover}) => {
       <Container className='box' >
         <Row>
           <Col md={6}>
-            <h1>{title}</h1>
-            <p>{desc}</p>
-            <button className='btn-primary'>Visit Collections</button>
+            <h3>{title}</h3>
+            <h2>{desc}</h2>
+            {/* <button className='btn-primary'></button> */}
           </Col>
           <Col md={6}>
             <img src={cover} alt="#" />

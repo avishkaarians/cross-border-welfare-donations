@@ -43,3 +43,14 @@
     max-height: 300px;
     object-fit: contain;
 }
+.box h3 {
+    margin-top: 80px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box h2 {
+    margin-top : 30px;
+    margin-left: 290px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

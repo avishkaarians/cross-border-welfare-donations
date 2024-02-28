@@ -2,11 +2,15 @@ import Select from 'react-select';
 import { products } from '../utils/products';
 
 const options = [
-    { value: "sofa", label: "Sofa" },
-    { value: "chair", label: "Chair" },
-    { value: "watch", label: "Watch" },
-    { value: "mobile", label: "Mobile" },
-    { value: "wireless", label: "Wireless" },
+    { value: "animal", label: "animal" },
+    { value: "law & justice", label: "law & justice" },
+    { value: "war & peace", label: "war & peace" },
+    { value: "emergency", label: "emergency" },
+    { value: "hospitals & medicine", label: "hospitals & medicine" },
+    { value: "education", label: "education" },
+    { value: "environment", label: "environment" },
+    { value: "sports", label: "sports" },
+    { value: "others", label: "others" },
 ];
 
 const customStyles = {

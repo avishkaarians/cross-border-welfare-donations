@@ -9,7 +9,7 @@ const Banner = ({title}) => {
                 <Container>
                     <Row>
                         <Col>
-                            <h2>{title}</h2>
+                            <h2>Categories</h2>
                         </Col>
                     </Row>
                 </Container>
