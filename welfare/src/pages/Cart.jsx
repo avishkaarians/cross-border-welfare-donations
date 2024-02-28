@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import { link, useNavigate } from 'react-router-dom';
+import Paypal from "../components/payments/PayPal";
 import { Col, Container, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -6,6 +8,8 @@ import {
   //decreaseQty,
   deleteProduct,
 } from "../app/features/cart/cartSlice";
+import { useState } from "react";
+
 
 const Cart = () => {
   const { cartList } = useSelector((state) => state.cart);
@@ -22,6 +26,9 @@ const Cart = () => {
     //   setCartItem(JSON.parse(storedCart));
     // }
   }, []);
+  const navigate = useNavigate();
+  const [checkout, setCheckOut] = useState(false);
+
   return (
     <section className="cart-items">
       <Container>
@@ -42,27 +49,17 @@ const Cart = () => {
                       <Row className="cart-content justify-content-center">
                         <Col xs={12} sm={9} className="cart-details">
                           <h3>{item.productName}</h3>
-                          
+
                         </Col>
                         <Col>
-                        <button 
-                        style={{
-                          backgroundColor: '#4CAF50',
-                          border: 'none',
-                          color: 'white',
-                          padding: '8px 16px',
-                          textAlign: 'center',
-                          textDecoration: 'none',
-                          display: 'inline-block',
-                          fontSize: '14px',
-                          margin: '4px 2px',
-                          cursor: 'pointer',
-                          borderRadius: '6px',
-                        }}
-                      >
-                        Donate
-                      </button>
-                      </Col>
+                          <button
+                            onClick={() => {
+                              navigate("/paypal");
+                            }}
+                          >
+                            <h3>Checkout</h3>
+                          </button>
+                        </Col>
                       </Row>
                     </Col>
                     <button
@@ -76,7 +73,7 @@ const Cart = () => {
               );
             })}
           </Col>
-          
+
         </Row>
       </Container>
     </section>
