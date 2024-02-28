@@ -1,16 +1,12 @@
 # Cross-Border-Welfare-Donations
 
-
-## 📌 Live Demo
-https://multimart-ecommerce.onrender.com
-
 ## 😎 Features
 
-- Beauty UI similar to ecommerce website
-- Fully responsive and mobile friendly
-- User can add items to cart
-- User can view details of an item
-- User can show total price in cart
+- Beauty UI similar to the charity donation website
+- Fully responsive and mobile friendly 
+- User can add their donation wish to cart
+- User can view details of the charity
+- User can donate the amount to the charity
 - In Item page user can add quantity of item to cart instead of click add more and more 
 
 ## 🚀 What technologies were used?
