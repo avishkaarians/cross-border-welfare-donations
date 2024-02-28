@@ -24,7 +24,7 @@ From your command line, first clone this repo:
 $ https://github.com/avishkaarians/cross-border-welfare-donations.git
 
 # Go into the repository
-$ cd cross-border-welfare-donations
+$ cd welfare
 
 # Remove current origin repository
 $ git remote remove origin
