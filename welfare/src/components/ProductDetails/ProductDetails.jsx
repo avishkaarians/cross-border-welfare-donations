@@ -41,13 +41,16 @@ const ProductDetails = ({ selectedProduct }) => {
               <span>category:{selectedProduct?.category}</span>
             </div>
             <p>{selectedProduct?.shortDesc}</p>
-            <input
+            <p>Visit the website to know more</p>
+            <a href={selectedProduct?.url}>{selectedProduct?.url}</a>
+
+            {/* <input
               className="qty-input"
               type="number"
               placeholder="Qty"
               value={quantity}
               onChange={handleQuantityChange}
-            />
+            /> */}
             <button
               aria-label="Add"
               type="submit"

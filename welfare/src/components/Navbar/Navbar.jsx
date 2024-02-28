@@ -106,7 +106,7 @@ const NavBar = () => {
                 to="/cart"
                 onClick={() => setExpand(false)}
               >
-                <span className="nav-link-label">Cart</span>
+                <span className="nav-link-label">Queue</span>
               </Link>
             </Nav.Item>
             <Nav.Item className="expanded-cart">
