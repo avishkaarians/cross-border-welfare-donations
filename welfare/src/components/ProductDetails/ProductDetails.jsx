@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { link, useNavigate } from 'react-router-dom';
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 import { addToCart } from "../../app/features/cart/cartSlice";
@@ -14,9 +15,9 @@ const ProductDetails = ({ selectedProduct }) => {
   };
   const handelAdd = (selectedProduct, quantity) => {
     dispatch(addToCart({ product: selectedProduct, num: quantity }));
-    toast.success("Donation has been added to cart!");
+    toast.success("Donation has been added to queue!");
   };
-
+  const navigate = useNavigate();
   return (
     <section className="product-page">
       <Container>
@@ -57,7 +58,15 @@ const ProductDetails = ({ selectedProduct }) => {
               className="add"
               onClick={() => handelAdd(selectedProduct, quantity)}
             >
-              Add To Cart
+              Add To Queue
+            </button>
+
+            <button
+              onClick={() => {
+                navigate("/PhishingDetector");
+              }}
+            >
+              Fake url detection
             </button>
           </Col>
         </Row>

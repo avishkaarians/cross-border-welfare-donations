@@ -7,6 +7,7 @@ import Loader from "./components/Loader/Loader";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Paypal from "./components/payments/PayPal";
+import PhishingDetector from "./components/Phishing/PhishingDetector";
 const Home = lazy(() => import("./pages/Home"));
 const Shop = lazy(() => import("./pages/Shop"));
 const Cart = lazy(() => import("./pages/Cart"));
@@ -33,6 +34,7 @@ function App() {
           <Route path="/shop/:id" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/paypal" element={<Paypal />} />
+          <Route path="/PhishingDetector" element={<PhishingDetector />} />
         </Routes>
         <Footer />
       </Router>

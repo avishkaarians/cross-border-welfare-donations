@@ -51,6 +51,7 @@
 }
 
 .product-page button.add {
+  margin-bottom: 15px;
   padding: 10px 15px;
   background-color: #0f3460;
   color: white;

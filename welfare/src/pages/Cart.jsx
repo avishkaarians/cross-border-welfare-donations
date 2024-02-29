@@ -52,7 +52,7 @@ const Cart = () => {
 
                         </Col>
                         <Col>
-                          <button
+                          <button className="btn"
                             onClick={() => {
                               navigate("/paypal");
                             }}
