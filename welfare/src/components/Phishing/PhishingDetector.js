@@ -1,7 +1,7 @@
-// PhishingDetector.js
 import React, { useState } from 'react';
 import phishingLinks from './phishingLinks';
 import './PhishingDetector.css';
+
 const PhishingDetector = () => {
   const [url, setUrl] = useState('');
   const [result, setResult] = useState('');
@@ -19,7 +19,7 @@ const PhishingDetector = () => {
       <h2>Phishing Link Detector</h2>
       <input type="text" value={url} onChange={(e) => setUrl(e.target.value)} />
       <button onClick={checkPhishing}>Check</button>
-      {result && <p>{result}</p>}
+      {result && <p className={result === 'Phishing link' ? 'phishing-link' : 'not-phishing-link'}>{result}</p>}
     </div>
   );
 };

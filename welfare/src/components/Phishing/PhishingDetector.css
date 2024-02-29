@@ -44,3 +44,10 @@
     color: #333;
   }
   
+  .phishing-link {
+    color: red;
+  }
+  
+  .not-phishing-link {
+    color: green;
+  }
