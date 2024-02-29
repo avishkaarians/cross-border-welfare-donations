@@ -16,21 +16,21 @@
 - state management using Redux Toolkit
 
 🧰 Version Control
-Technology 
+Technology :
 	Git	
 	GitHub	
  
- 🔨 Tools
+ 🔨 Tools :
  	Visual Studio Code	
   
   🌐 Web Dev
-Technology 
+Technology :
 	HTML	
 	CSS	
  	Bootstrap	
 
   📜 JavaScript
-Technology 
+Technology :
 	JavaScript	
 	Angular	
 	React	
