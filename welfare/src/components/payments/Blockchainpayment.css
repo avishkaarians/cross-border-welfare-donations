@@ -1,4 +1,4 @@
-#transferAmount {
+/* #transferAmount {
     width: 300px;
     height: 40px;
     padding: 15px;
@@ -31,4 +31,15 @@
 #video{
     width: 300px; 
     height: 300px;
+} */
+.BlockchainPayment{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.BlockchainPayment button{
+    margin : 10px 0px
 }

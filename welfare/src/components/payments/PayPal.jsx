@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import BlockchainPayment from "./BlockchainPayment";
-
+import "./PayPal.css";
 export default function Paypal() {
     const paypal = useRef();
 
@@ -33,7 +33,7 @@ export default function Paypal() {
     }, []);
 
     return (
-        <div>
+        <div className="payment">
             <div ref={paypal}></div>
             <BlockchainPayment />
         </div>

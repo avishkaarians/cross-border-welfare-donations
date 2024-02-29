@@ -78,7 +78,7 @@ const BlockchainPayment = () => {
   };
 
   return (
-    <div style={{ backgroundColor: '#FAF0E6' }}>
+    <div className="BlockchainPayment"style={{ backgroundColor: '#FAF0E6' }}>
       <center>
         <div className="card">
           <h1>Welcome to Binary Brains Payment System!</h1>
@@ -88,14 +88,14 @@ const BlockchainPayment = () => {
           <button onClick={checkBalance} className="custom-btn2">Get Balance of Wallet</button>
           <p id="walletAddress">{userWalletAddress}</p>
           <p id="walletBalance">{walletBalance}</p>
-          <input type="text" id="recipientAddress" placeholder="Recipient Address" value={recipientAddress} onChange={(e) => setRecipientAddress(e.target.value)} disabled /><br /><br />
-          <input type="text" id="transferAmount" placeholder="Enter Amount" style={{ width: '300px', height: '40px', padding: '15px', fontSize: '18px', borderRadius: '25px' }} onChange={(e) => setTransferAmount(e.target.value)} value={transferAmount} /><br /><br />
+          <input type="text" id="recipientAddress" placeholder="Recipient Address" style={{ width: '100%', height: '40px', padding: '15px', margin : '10px 0px', fontSize: '18px', borderRadius: '10px' }} value={recipientAddress} onChange={(e) => setRecipientAddress(e.target.value)} disabled /><br /><br />
+          <input type="text" id="transferAmount" placeholder="Enter Amount" style={{ width: '100%', height: '40px', padding: '15px', margin : '10px 0px', fontSize: '18px', borderRadius: '10px' }} onChange={(e) => setTransferAmount(e.target.value)} value={transferAmount} /><br /><br />
           <button onClick={transferFunds} className="custom-btn2">Transfer Funds</button>
           <p id="transferStatus"></p>
-          <p>-----OR-----</p>
+          {/* <p>-----OR-----</p>
           <p>If you dont have a account</p>
           <img src="./images/QR.png" style={{ maxWidth: '150px', maxHeight: '150px' }} alt="QR Code" />
-          <p>Else, click <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn">here</a>.</p>
+          <p>Else, click <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn">here</a>.</p> */}
         </div>
 
         {popupVisible && (
