@@ -17,7 +17,7 @@
 
 🧰 Version Control
 Technology :
-	Git	
+	Git,	
 	GitHub	
  
  🔨 Tools :
@@ -25,16 +25,16 @@ Technology :
   
   🌐 Web Dev
 Technology :
-	HTML	
-	CSS	
+	HTML,	
+	CSS,	
  	Bootstrap	
 
   📜 JavaScript
 Technology :
-	JavaScript	
-	Angular	
-	React	
- 	npm	
+	JavaScript,	
+	Angular,	
+	React,	
+ 	npm,	
 	Node.js	
  
 
