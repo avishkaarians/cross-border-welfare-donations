@@ -15,6 +15,29 @@
 - react-bootstrap
 - state management using Redux Toolkit
 
+🧰 Version Control
+Technology :
+	Git,	
+	GitHub	
+ 
+ 🔨 Tools :
+ 	Visual Studio Code	
+  
+  🌐 Web Dev
+Technology :
+	HTML,	
+	CSS,	
+ 	Bootstrap	
+
+  📜 JavaScript
+Technology :
+	JavaScript,	
+	Angular,	
+	React,	
+ 	npm,	
+	Node.js	
+ 
+
 ## How can you clone and tweak this project?
 
 From your command line, first clone this repo:
